@@ -1,3 +1,11 @@
-body {
-    background-color: black;
+:root {
+  --white: #fff;
+  --purple500: #8319C8;
+  --purple700: #4F0F78;
+  --purple900: #160422;
+  --purpleDarkest: #0D0314;
+  --gradPinkToPurple: linear-gradient(180deg, #FCEAE8 0%, #D5BDF2 53.65%, #AC8DFD 95.43%);
+  --grayLight: #CCCACD;
+  --grayMid: #838084;
+  --grayDark: #48444A;
 }
