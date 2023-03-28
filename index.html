@@ -11,6 +11,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+  <script>
+  window.addEventListener('load', function () {
+    document.querySelector('.title-container button').addEventListener('click', () => {
+      window.location.hash = "#waitlist"
+    });  
+  });
+  </script>
 </head>
 
 <body>
@@ -71,7 +78,7 @@
       <h2 class="title-grad">Your creator career in one place</h2>
       <h4>Sign up today to unlock your Lasso handle</h4>
       <div class="form-container">
-        <form>
+        <form id="waitlist">
           <!-- Contact Details -->
           <fieldset class="first-section">
             <label for="name">Claim your handle</label>
