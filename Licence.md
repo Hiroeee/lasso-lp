@@ -1,6 +1,6 @@
 ## Restricted Use License
 
-This license applies to the [Website Name] website and all associated code, documentation, and resources, hereafter referred to as the "Website."
+This license applies to the Lasso landing page website and all associated code, documentation, and resources, hereafter referred to as the "Website."
 
 ## Scope
 
